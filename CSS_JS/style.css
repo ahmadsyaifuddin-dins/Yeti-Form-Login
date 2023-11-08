@@ -2,380 +2,392 @@
 
 html {
 
-    width: 100%;
+  width: 100%;
 
-    height: 100%;
+  height: 100%;
 
-  }
+}
 
-  
 
-  body {
 
-    background-color: #eff3f4;
+body {
 
-    position: relative;
+  background-color: #eff3f4;
 
-    width: 100%;
+  position: relative;
 
-    height: 100%;
+  width: 100%;
 
-    font-size: 16px;
+  height: 100%;
 
-    font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
 
-    font-weight: 400;
+  font-family: "Source Sans Pro", sans-serif;
 
-    -webkit-font-smoothing: antialiased;
+  font-weight: 400;
 
-  }
+  -webkit-font-smoothing: antialiased;
 
-  
+}
 
-  form {
 
-    position: absolute;
 
-    top: 50%;
+form {
 
-    left: 50%;
+  position: absolute;
 
-    transform: translate(-50%, -50%);
+  top: 50%;
 
-    display: block;
+  left: 50%;
 
-    width: 100%;
+  transform: translate(-50%, -50%);
 
-    max-width: 400px;
+  display: block;
 
-    background-color: #FFF;
+  width: 100%;
 
-    margin: 0;
+  max-width: 400px;
 
-    padding: 2.25em;
+  background-color: #FFF;
 
-    box-sizing: border-box;
+  margin: 0;
 
-    border: solid 1px #DDD;
+  padding: 2.25em;
 
-    border-radius: 0.5em;
+  box-sizing: border-box;
 
-    font-family: "Source Sans Pro", sans-serif;
+  border: solid 1px #DDD;
 
-  }
+  border-radius: 0.5em;
 
-  form .svgContainer {
+  font-family: "Source Sans Pro", sans-serif;
 
-    position: relative;
+}
 
-    width: 200px;
+form .svgContainer {
 
-    height: 200px;
+  position: relative;
 
-    margin: 0 auto 1em;
+  width: 200px;
 
-    border-radius: 50%;
+  height: 200px;
 
-    background: none;
-    border: solid 2.5px #3A5E77;
-    overflow: hidden;
+  margin: 0 auto 1em;
 
-    pointer-events: none;
+  border-radius: 50%;
 
-  }
+  background: none;
+  border: solid 2.5px #3A5E77;
+  overflow: hidden;
 
-  form .svgContainer div {
+  pointer-events: none;
 
-    position: relative;
+}
 
-    width: 100%;
+form .svgContainer div {
 
-    height: 0;
+  position: relative;
 
-    overflow: hidden;
+  width: 100%;
 
-    padding-bottom: 100%;
+  height: 0;
 
-  }
+  overflow: hidden;
 
-  form .svgContainer .mySVG {
+  padding-bottom: 100%;
 
-    position: absolute;
+}
 
-    left: 0;
+form .svgContainer .mySVG {
 
-    top: 0;
+  position: absolute;
 
-    width: 100%;
+  left: 0;
 
-    height: 100%;
+  top: 0;
 
-    pointer-events: none;
+  width: 100%;
 
-  }
+  height: 100%;
 
+  pointer-events: none;
 
+}
 
-  form .inputGroup {
 
-    margin: 0 0 2em;
 
-    padding: 0;
+form .inputGroup {
 
-    position: relative;
+  margin: 0 0 2em;
 
-  }
+  padding: 0;
 
-  form .inputGroup:last-of-type {
+  position: relative;
 
-    margin-bottom: 0;
+}
 
-  }
+form .inputGroup:last-of-type {
 
-  form label {
+  margin-bottom: 0;
 
-    margin: 0 0 12px;
+}
 
-    display: block;
+form label {
 
-    font-size: 1.25em;
+  margin: 0 0 12px;
 
-    color: #217093;
+  display: block;
 
-    font-weight: 700;
+  font-size: 1.25em;
 
-    font-family: inherit;
+  color: #217093;
 
-  }
+  font-weight: 700;
 
-  form input[type=email], form input[type=text], form input[type=number], form input[type=url], form input[type=search], form input[type=password] {
+  font-family: inherit;
 
-    display: block;
+}
 
-    margin: 0;
+form input[type=email],
+form input[type=text],
+form input[type=number],
+form input[type=url],
+form input[type=search],
+form input[type=password] {
 
-    padding: 0 1em 0;
+  display: block;
 
-    background-color: #f3fafd;
+  margin: 0;
 
-    border: solid 2px #217093;
+  padding: 0 1em 0;
 
-    border-radius: 4px;
+  background-color: #f3fafd;
 
-    -webkit-appearance: none;
+  border: solid 2px #217093;
 
-    box-sizing: border-box;
+  border-radius: 4px;
 
-    width: 100%;
+  -webkit-appearance: none;
 
-    height: 65px;
+  box-sizing: border-box;
 
-    font-size: 1.55em;
+  width: 100%;
 
-    color: #353538;
+  height: 65px;
 
-    font-weight: 600;
+  font-size: 1.55em;
 
-    font-family: inherit;
+  color: #353538;
 
-    transition: box-shadow 0.2s linear, border-color 0.25s ease-out;
+  font-weight: 600;
 
-  }
+  font-family: inherit;
 
-  form input[type=email]:focus, form input[type=text]:focus, form input[type=number]:focus, form input[type=url]:focus, form input[type=search]:focus, form input[type=password]:focus {
+  transition: box-shadow 0.2s linear, border-color 0.25s ease-out;
 
-    outline: none;
+}
 
-    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+form input[type=email]:focus,
+form input[type=text]:focus,
+form input[type=number]:focus,
+form input[type=url]:focus,
+form input[type=search]:focus,
+form input[type=password]:focus {
 
-    border: solid 2px #4eb8dd;
+  outline: none;
 
-  }
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
 
-  form button {
+  border: solid 2px #4eb8dd;
 
-    display: block;
+}
 
-    margin: 0;
+form button {
 
-    padding: 0.65em 1em 1em;
+  display: block;
 
-    background-color: #4eb8dd;
+  margin: 0;
 
-    border: none;
+  padding: 0.65em 1em 1em;
 
-    border-radius: 4px;
+  background-color: #4eb8dd;
 
-    box-sizing: border-box;
+  border: none;
 
-    box-shadow: none;
+  border-radius: 4px;
 
-    width: 100%;
+  box-sizing: border-box;
 
-    height: 65px;
+  box-shadow: none;
 
-    font-size: 1.55em;
+  width: 100%;
 
-    color: #FFF;
+  height: 65px;
 
-    font-weight: 600;
+  font-size: 1.55em;
 
-    font-family: inherit;
+  color: #FFF;
 
-    transition: background-color 0.2s ease-out;
+  font-weight: 600;
 
-  }
+  font-family: inherit;
 
-  form button:hover, form button:active {
+  transition: background-color 0.2s ease-out;
 
-    background-color: #217093;
+}
 
-  }
+form button:hover,
+form button:active {
 
-  form .inputGroup1 .helper {
+  background-color: #217093;
 
-    position: absolute;
+}
 
-    z-index: 1;
+form .inputGroup1 .helper {
 
-    font-family: inherit;
+  position: absolute;
 
-  }
+  z-index: 1;
 
-  form .inputGroup1 .helper1 {
+  font-family: inherit;
 
-    top: 0;
+}
 
-    left: 0;
+form .inputGroup1 .helper1 {
 
-    transform: translate(1em, 2.2em) scale(1);
+  top: 0;
 
-    transform-origin: 0 0;
+  left: 0;
 
-    color: #217093;
+  transform: translate(1em, 2.2em) scale(1);
 
-    font-size: 1.55em;
+  transform-origin: 0 0;
 
-    font-weight: 400;
+  color: #217093;
 
-    opacity: 0.65;
+  font-size: 1.55em;
 
-    pointer-events: none;
+  font-weight: 400;
 
-    transition: transform 0.2s ease-out, opacity 0.2s linear;
+  opacity: 0.65;
 
-  }
+  pointer-events: none;
 
-  form .inputGroup1.focusWithText .helper {
+  transition: transform 0.2s ease-out, opacity 0.2s linear;
 
-    transform: translate(1em, 1.55em) scale(0.6);
+}
 
-    opacity: 1;
+form .inputGroup1.focusWithText .helper {
 
-  }
+  transform: translate(1em, 1.55em) scale(0.6);
 
-  form .inputGroup2 input[type=password] {
+  opacity: 1;
 
-    padding: 0.4em 1em 0.5em;
+}
 
-  }
+form .inputGroup2 input[type=password] {
 
-  form .inputGroup2 input[type=text] {
+  padding: 0.4em 1em 0.5em;
 
-    padding: 0.025em 1em 0;
+}
 
-  }
+form .inputGroup2 input[type=text] {
 
-  form .inputGroup2 #showPasswordToggle {
+  padding: 0.025em 1em 0;
 
-    display: block;
+}
 
-    padding: 0 0 0 1.45em;
+form .inputGroup2 #showPasswordToggle {
 
-    position: absolute;
+  display: block;
 
-    top: 0.25em;
+  padding: 0 0 0 1.45em;
 
-    right: 0;
+  position: absolute;
 
-    font-size: 1em;
+  top: 0.25em;
 
-  }
+  right: 0;
 
-  form .inputGroup2 #showPasswordToggle input {
+  font-size: 1em;
 
-    position: absolute;
+}
 
-    z-index: -1;
+form .inputGroup2 #showPasswordToggle input {
 
-    opacity: 0;
+  position: absolute;
 
-  }
+  z-index: -1;
 
-  form .inputGroup2 #showPasswordToggle .indicator {
+  opacity: 0;
 
-    position: absolute;
+}
 
-    top: 0;
+form .inputGroup2 #showPasswordToggle .indicator {
 
-    left: 0;
+  position: absolute;
 
-    height: 0.85em;
+  top: 0;
 
-    width: 0.85em;
+  left: 0;
 
-    background-color: #f3fafd;
+  height: 0.85em;
 
-    border: solid 2px #217093;
+  width: 0.85em;
 
-    border-radius: 3px;
+  background-color: #f3fafd;
 
-  }
+  border: solid 2px #217093;
 
-  form .inputGroup2 #showPasswordToggle .indicator:after {
+  border-radius: 3px;
 
-    content: "";
+}
 
-    position: absolute;
+form .inputGroup2 #showPasswordToggle .indicator:after {
 
-    left: 0.25em;
+  content: "";
 
-    top: 0.025em;
+  position: absolute;
 
-    width: 0.2em;
+  left: 0.25em;
 
-    height: 0.5em;
+  top: 0.025em;
 
-    border: solid #217093;
+  width: 0.2em;
 
-    border-width: 0 3px 3px 0;
+  height: 0.5em;
 
-    transform: rotate(45deg);
+  border: solid #217093;
 
-    visibility: hidden;
+  border-width: 0 3px 3px 0;
 
-  }
+  transform: rotate(45deg);
 
-  form .inputGroup2 #showPasswordToggle input:checked ~ .indicator:after {
+  visibility: hidden;
 
-    visibility: visible;
+}
 
-  }
+form .inputGroup2 #showPasswordToggle input:checked~.indicator:after {
 
-  form .inputGroup2 #showPasswordToggle input:focus ~ .indicator, form .inputGroup2 #showPasswordToggle input:hover ~ .indicator {
+  visibility: visible;
 
-    border-color: #4eb8dd;
+}
 
-  }
+form .inputGroup2 #showPasswordToggle input:focus~.indicator,
+form .inputGroup2 #showPasswordToggle input:hover~.indicator {
 
-  form .inputGroup2 #showPasswordToggle input:disabled ~ .indicator {
+  border-color: #4eb8dd;
 
-    opacity: 0.5;
+}
 
-  }
+form .inputGroup2 #showPasswordToggle input:disabled~.indicator {
 
-  form .inputGroup2 #showPasswordToggle input:disabled ~ .indicator:after {
+  opacity: 0.5;
 
-    visibility: hidden;
+}
 
-  }
+form .inputGroup2 #showPasswordToggle input:disabled~.indicator:after {
+
+  visibility: hidden;
+
+}
